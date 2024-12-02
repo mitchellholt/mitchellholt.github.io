@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title> Projects </title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/dreampulse/computer-modern-web-font/master/fonts.css">
+</head>
+
+<nav>
+    <div class="nav-container">
+        <div class="nav-item nav-link">
+            Home
+            <a href="index.html"> <span class="div-link"></span> </a>
+        </div>
+        <div class="nav-item nav-link">
+            Talks
+            <a href="talks.html"> <span class="div-link"></span> </a>
+        </div>
+        <div class="nav-item nav-link">
+            Projects
+            <a href="projects.html"> <span class="div-link"></span> </a>
+        </div>
+    </div>
+</nav>
+
+<body>
+<div class="content">
+    <h1>
+        Projects
+    </h1>
+
+<div class="accordion"> Symbolic Integration in Magma </div>
+<div class="panel">
+    <p> Source code: <a href="https://github.com/mitchellholt/magma-integration">[GitHub repository] </a></p>
+    <p>
+        Magma does not have a symbolic computation library! This project is a
+        partial implementation of the Risch integration procedure that aims to
+        integrate nicely with the existing differential algebra functionality of
+        Magma. You'll notice that I only have implementations for the
+        integration of rational and logarithmic functions, and my logarithmic
+        integration code unfortunately does not pass my tests.
+    </p>
+</div>
+
+<div class="accordion"> <em> VERY FAST </em> FFT Polynomial Multipliation </div>
+<div class="panel">
+    <p> Source code: <a href="https://github.com/mitchellholt/COSC3500-project/tree/main/Parallel">[GitHub repository] </a></p>
+    <p>
+        This was a really fun project I did for my High Performance Computing
+        class (COSC3500) at the University of Queensland! I spent way too long
+        writing some <em>very fast</em> C code for the multiplication of
+        polynomials whose coefficients come from a specific finite field. The
+        final result is that I am more than 5 times faster than Maple! (with the
+        caveat that Maple, unlike me, has to interpret source code and decide
+        which kernel code to execute at runtime)
+    </p>
+</div>
+
+<div class="accordion"> Modular Algorithms for Computation in Simple Algebraic Number Fields </div>
+<div class="panel">
+    <p>
+        Funded by the Australian Mathematical Sciences Institute (AMSI) as part
+        of a <a href="https://srs.amsi.org.au/"> Summer Research Scholarship! </a>.
+    </p>
+    <p> In progress now! Stay tuned for more! </p>
+</div>
+
+</div>
+</body>
+</html>
